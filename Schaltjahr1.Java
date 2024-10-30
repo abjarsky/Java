@@ -18,9 +18,9 @@ public class Schaltjahr1 {
             case 2:
                 
                 if ((jahr % 4 == 0 && jahr % 100 != 0) || (jahr % 400 == 0)) {
-                    tage = 29;  // februar hat 29 Tage 
+                    tage = 29;   
                 } else {
-                    tage = 28;  // Februar hat 28 Tage 
+                    tage = 28;  
                 }
                 break;
             default:
