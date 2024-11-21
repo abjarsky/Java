@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Check-In System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Registrierung</h1>
+    </header>
+    <main>
+        <form action="register.php" method="post">
+            <div class="form-group">
+                <label for="user-id">Benutzer-ID:</label>
+                <input type="text" id="user-id" name="user-id" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Benutzername:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Passwort:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="lkw-select">LKW Option:</label>
+                <select id="lkw-select" name="lkw-select">
+                    <option value="LKW 1">LKW 1</option>
+                    <option value="LKW 2">LKW 2</option>
+                    <option value="LKW 3">LKW 3</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button type="submit">Registrieren</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

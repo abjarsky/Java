@@ -1,0 +1,80 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Weißer Hintergrund */
+    color: #000000; /* Schwarzer Text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #c4ff00; /* Gelbgrün */
+    color: #000000; /* Schwarzer Text */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #c4ff00; /* Gelbgrün */
+    color: #000000; /* Schwarzer Text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+    background-color: #c4ff00; /* Gelbgrün */
+    color: #000000; /* Schwarzer Text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000; /* Schwarzer Hintergrund */
+    color: #c4ff00; /* Gelbgrüner Text */
+}
+
+/* Tabellen */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff; /* Weißer Hintergrund */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #c4ff00; /* Gelbgrüner Rand */
+    color: #000000; /* Schwarzer Text */
+}
+
+.table th {
+    background-color: #c4ff00; /* Gelbgrüner Header */
+    color: #000000; /* Schwarzer Text */
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%; /* Buttons über die gesamte Breite */
+    }
+}
